@@ -21,4 +21,12 @@ describe Solver do
       expect(factorial_number).to eql(120)
     end
   end
+
+  describe '#reverse' do
+  it 'should return a reverse of string arguement provided' do
+    solver = Solver.new
+    string_to_reverse = solver.reverse("mayito")
+    expect(string_to_reverse).to eq("otiyam")
+  end
+end
 end
