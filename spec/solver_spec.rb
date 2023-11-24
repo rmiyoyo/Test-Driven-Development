@@ -15,8 +15,7 @@ describe Solver do
 
     it 'should raise an error n is a negative number' do 
         solver = Solver.new
-        factorial_number_negative = solver.factorial(-1)
-        expect(factorial_number_negative).to raise_error(ArgumentError, "n must be a positive number")
+        expect{ solver.factorial(-1)}.to raise_error(ArgumentError, "n must be a positive number")
     end
 
     it 'should return factorial of number n' do
