@@ -12,7 +12,7 @@ describe Solver do
 
     it 'should raise an error n is a negative number' do
       solver = Solver.new
-      expect { solver.factorial(-1) }.to raise_error(ArgumentError, 'n must be a positive number')
+      expect { solver.factorial(-1) }.to raise_error(ArgumentError, 'number must be a positive number')
     end
 
     it 'should return factorial of number n' do
