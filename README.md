@@ -1,19 +1,19 @@
-# school-library-
+# Test-Driven-Development
 
-> This project includes an OOP school library built  using Ruby program.
+> The project involves creating a Ruby class called Solver that provides three fundamental mathematical and string manipulation methods. The class is intended to be a utility for common problem-solving tasks.
 
 ## Getting Started
 
-This repository includes files with enumerable.rb file that contains a program that creates an Enumerable
+This project adheres to the Test-Driven Development (TDD) methodology. Test cases are written in the spec/solver_spec.rb file before implementing the corresponding methods in the solver.rb file.
 
 <a name="readme-top"></a>
 
 # 📗 Table of Contents
 
-- [school-library-](#school-library-)
+- [Test-Driven-Development](#test-driven-development)
   - [Getting Started](#getting-started)
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 \[school-library-\] ](#-school-library--)
+- [📖 \[Test-Driven-Development\] ](#-test-driven-development-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -30,9 +30,9 @@ This repository includes files with enumerable.rb file that contains a program t
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [school-library-] <a name="about-project"></a>
+# 📖 [Test-Driven-Development] <a name="about-project"></a>
 
-**[school-library-]** is a project that was created for a school library to manage books borrowed and used by the student and teachers.
+**[Test-Driven-Development]** is a project that involves creating a Ruby class called Solver that provides three fundamental mathematical and string manipulation methods. The class is intended to be a utility for common problem-solving tasks.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -45,7 +45,7 @@ This repository includes files with enumerable.rb file that contains a program t
   </ul>
 </details>
 
-<summary>school-library-</summary>
+<summary>Test-Driven-Development</summary>
   <ul>
     <li><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
   </ul>
@@ -70,32 +70,28 @@ To get a local copy up and running, follow these steps.
 ### Prerequisites
 
 In order to run this project you need:
-you need to postgresql installed on your machine
+you need to Ruby installed on your machine
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
-
 ```sh
   cd my-folder
-  git clone https://github.com/ismayito/school-library-.git
+  git clone git@github.com:rmiyoyo/Test-Driven-Development.git
 ```
---->
+-
 
 ### Usage
 
 To run the project, execute the following command:
 
-<!--
-Example command:
-
 ```sh
-  cd school-library-;
+  cd Test-Driven-Development;
+  ruby solver.rb
 ```
---->
+
+-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -120,7 +116,7 @@ Example command:
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **[Add more methods]**
-- [ ] **[Design the Ui]**
+- [ ] **[Add more tests]**
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
@@ -145,7 +141,7 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank the microverse staff for doing their best to equip us with the necessary skills to start our software engineering carreers. I would also like to thank my coding partners who have helped me along the way.
+Thank you for looking at the project! :)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
